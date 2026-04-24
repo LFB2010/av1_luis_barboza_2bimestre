@@ -23,14 +23,28 @@ nav a {
   text-decoration: none;
 }
 
+nav a:hover {
+  text-decoration: underline;
+}
+
 main {
   padding: 20px;
 }
 
+#sobre {
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.bg-color {
+  background-color: #ffffff;
+}
+
 section {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   padding: 15px;
   border: 1px solid #275f85;
+  border-radius: 15px;
 }
 
 footer {
